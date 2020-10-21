@@ -1,0 +1,32 @@
+.hero {
+    @include flexCenter(column);
+}
+
+.main {
+    padding-top: 10vh;
+    @include flexCenter(column);
+    text-align: center;
+
+    &__title {
+        padding: 0 3rem 1rem 3rem;
+        color: $primary1;
+        font-size: 1.5rem;
+    }
+    &__text {
+        color: $neutral1;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+}
+.rate {
+    padding-top: 5vh;
+    width: 90vw;
+    // text-align: center;
+    &__box {
+        @include flexCenter(column);
+    }
+    &__starline {
+        list-style: none;
+        display: flex;
+    }
+}
