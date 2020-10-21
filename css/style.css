@@ -8,8 +8,13 @@
   font-family: Spartan;
 }
 
+body {
+  background-image: url(../images/bg-pattern-top-mobile.svg);
+  background-repeat: no-repeat;
+}
+
 section {
-  padding: 0 5vw;
+  padding: 0 20px;
 }
 
 .hero {
@@ -56,11 +61,12 @@ section {
   color: #937b92;
   font-weight: 500;
   line-height: 1.5rem;
+  letter-spacing: 1px;
 }
 
 .rate {
   padding-top: 5vh;
-  width: 90vw;
+  width: 100%;
 }
 
 .rate__box {
@@ -77,6 +83,9 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #f7f2f7;
+  padding: 10px 0;
+  margin-bottom: 15px;
 }
 
 .rate__starline {
@@ -84,5 +93,11 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 5px;
+}
+
+.rate__text {
+  font-weight: 700;
+  color: #502050;
 }
 /*# sourceMappingURL=style.css.map */

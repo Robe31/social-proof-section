@@ -16,17 +16,26 @@
         color: $neutral1;
         font-weight: 500;
         line-height: 1.5rem;
+        letter-spacing: 1px;
     }
 }
 .rate {
     padding-top: 5vh;
-    width: 90vw;
+    width: 100%;
     // text-align: center;
     &__box {
         @include flexCenter(column);
+        background-color: $neutral2;
+        padding: 10px 0;
+        margin-bottom: 15px;
     }
     &__starline {
         list-style: none;
         display: flex;
+        padding-bottom: 5px;
+    }
+    &__text {
+        font-weight: 700;
+        color: $primary1;
     }
 }
