@@ -19,3 +19,8 @@ section {
     background-image: url(../images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
 }
+@media (min-width: 1024px) {
+    section {
+        padding: 0 10vw;
+    }
+}

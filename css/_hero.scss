@@ -28,6 +28,7 @@
         background-color: $neutral2;
         padding: 10px 0;
         margin-bottom: 15px;
+        border-radius: 5px;
     }
     &__starline {
         list-style: none;
@@ -37,5 +38,51 @@
     &__text {
         font-weight: 700;
         color: $primary1;
+    }
+}
+@media (min-width: 1024px) {
+    .hero {
+        @include flexCenter(row);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main {
+        text-align: left;
+        align-items: flex-start;
+        &__title {
+            // max-width: 298px;
+            padding-left: 0;
+            font-size: 3.5rem;
+        }
+        &__text {
+            max-width: 510px;
+        }
+    }
+    .rate {
+        display: flex;
+        flex-direction: column;
+        &__box {
+            @include flexCenter(row);
+            justify-content: flex-start;
+            padding: 1.2vw;
+            padding-right: 40px;
+            max-width: 460px;
+        }
+        &__starline {
+            padding-left: 0.5vw;
+            padding-bottom: 0;
+            &__star {
+                padding: 0 5px;
+            }
+        }
+        &__text {
+            padding-left: 20px;
+        }
+    }
+    #rateBox2 {
+        align-self: center;
+    }
+    #rateBox3 {
+        align-self: flex-end;
     }
 }
