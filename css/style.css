@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +8,18 @@
   font-family: Spartan;
 }
 
-body {
+section {
+  padding: 0 20px;
+}
+
+#section-top {
   background-image: url(../images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
 }
 
-section {
-  padding: 0 20px;
+#section-bottom {
+  background-image: url(../images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
 }
 
 .hero {
@@ -99,5 +104,55 @@ section {
 .rate__text {
   font-weight: 700;
   color: #502050;
+}
+
+.review {
+  background-color: #502050;
+  padding: 5vw;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.review__text {
+  color: white;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profile__img {
+  border-radius: 50%;
+  width: 3rem;
+  margin-right: 1.5rem;
+}
+
+.profile__name {
+  color: white;
+  font-weight: 700;
+}
+
+.profile__buyer {
+  color: #ee68a4;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */

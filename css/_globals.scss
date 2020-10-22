@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
 * {
     margin: 0;
@@ -7,10 +7,15 @@
     font-size: 15px;
     font-family: Spartan;
 }
-body {
+
+section {
+    padding: 0 20px;
+}
+#section-top {
     background-image: url(../images/bg-pattern-top-mobile.svg);
     background-repeat: no-repeat;
 }
-section {
-    padding: 0 20px;
+#section-bottom {
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
 }
